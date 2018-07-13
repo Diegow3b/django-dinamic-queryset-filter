@@ -5,23 +5,23 @@ Feel free to upgrade the function
 
 ```python
 '''
-		Os campos filtrados dessa versão são do tipo inteiro ou decimal
-		Parametros:
-		1 - Queryset: Qual queryset deseja filtrar
-		2 - Coluna(String): Nome da coluna no qual deseja aplicar o filtro
-		3 - Filtro(String): String com o valor no qual deseja filtrar			
-        - Menor ou Igual - "-<valor>" | Exemplo: "-250"
-        - Entre (Between) - "<valor>~<valor>" | Exemplo: "250~350"
-        - Maior ou igual - "+<valor>" | Exemplo: "+15"	
+	Os campos filtrados dessa versão são do tipo inteiro ou decimal
+	Parametros:
+	1 - Queryset: Qual queryset deseja filtrar
+	2 - Coluna(String): Nome da coluna no qual deseja aplicar o filtro
+	3 - Filtro(String): String com o valor no qual deseja filtrar			
+        	- Menor ou Igual - "-<valor>" | Exemplo: "-250"
+        	- Entre (Between) - "<valor>~<valor>" | Exemplo: "250~350"
+        	- Maior ou igual - "+<valor>" | Exemplo: "+15"	
       
-     The filtered filters of this version must be int or decimal
-     Parameters:
-     1 - Queryset
-     2 - Column(String): Name of the column you wish to apply the filter
-     3 - Filter(Stirng: String with the value you wish filter
-        - Less then Equals - "-<value>" | Exemple: "-250"
-        - Between - "<value>~<value> | Exemple: "250~350"
-        - Greater then Equals - "+<value>" | Exemple: "+15"
+	The filtered filters of this version must be int or decimal
+     	Parameters:
+     	1 - Queryset
+     	2 - Column(String): Name of the column you wish to apply the filter
+     	3 - Filter(Stirng: String with the value you wish filter
+        	- Less then Equals - "-<value>" | Exemple: "-250"
+        	- Between - "<value>~<value> | Exemple: "250~350"
+        	- Greater then Equals - "+<value>" | Exemple: "+15"
 	'''
   	
     def filtro_dinamico(queryset, coluna, filtro):
