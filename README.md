@@ -23,8 +23,7 @@ Feel free to upgrade the function
         - Between - "<value>~<value> | Exemple: "250~350"
         - Greater then Equals - "+<value>" | Exemple: "+15"
 	'''
-  
-	@staticmethod
+  	
     def filtro_dinamico(queryset, coluna, filtro):
         if '-' in filtro:
                 filtro = filtro.replace('-','')
